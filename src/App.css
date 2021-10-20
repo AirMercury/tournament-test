@@ -14,14 +14,16 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #0b0b0b;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: calc(10px + 1.2vmin);
   color: white;
+  padding-left: 25%;
+  padding-right: 25%;
 }
 
 .App-link {
@@ -35,4 +37,35 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.btn{
+  background-color: #c700c1;
+  color: black;
+  font-weight: 900;
+  padding: 8px;
+  margin: 8px;
+  border: 0;
+  border-radius: 4px;
+  font-size: 20px;
+}
+.btn:hover{
+  background-color: #ea00ff;
+
+  cursor: pointer;
+}
+.ok-msg{
+  color: #52ff2f;
+  font-weight: 900;
+  
+}
+#price{
+  color: #00d0ff;
+}
+h1{
+  padding:0;
+  margin: 0;
+}
+a{
+  padding-bottom: 5px;
 }
